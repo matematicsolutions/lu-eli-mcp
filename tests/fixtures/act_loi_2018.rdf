@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:jolux="http://data.legilux.public.lu/resource/ontology/jolux#" >
+  <rdf:Description rdf:about="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/graph">
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-30T16:30:23.133754</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr/docx">
+    <rdf:type rdf:resource="http://data.legilux.public.lu/resource/ontology/jolux#Manifestation" />
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-13T13:05:34.331+02:00</dcterms:modified>
+    <jolux:isExemplifiedBy rdf:resource="http://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/08/01/a686/jo/fr/docx/eli-etat-leg-loi-2018-08-01-a686-jo-fr-docx.docx" />
+    <jolux:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/DOCX" />
+    <jolux:rightsHolder rdf:resource="http://data.legilux.public.lu/resource/authority/legal-institution/ME" />
+    <jolux:userFormat rdf:resource="http://data.legilux.public.lu/resource/authority/user-format/docx" />
+    <jolux:license rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+    <jolux:publisher rdf:resource="http://data.legilux.public.lu/resource/authority/legal-institution/ME" />
+    <jolux:rights>Copyright : Ministère d&#39;État du Grand-Duché de Luxembourg - Service central de législation</jolux:rights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo">
+    <rdf:type rdf:resource="http://data.legilux.public.lu/resource/ontology/jolux#Act" />
+    <rdf:type rdf:resource="http://data.legilux.public.lu/resource/ontology/jolux#LegalResource" />
+    <rdf:type rdf:resource="http://data.legilux.public.lu/resource/ontology/jolux#Work" />
+    <rdf:type rdf:resource="http://data.legilux.public.lu/resource/ontology/jolux#NationalLegalResource" />
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity" />
+    <jolux:isRealizedBy rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr" />
+    <jolux:typeDocument rdf:resource="http://data.legilux.public.lu/resource/authority/resource-type/LOI" />
+    <jolux:isMemberOf rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686" />
+    <jolux:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-16</jolux:publicationDate>
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2015/03/25/n5/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/dir_ue/1995/46/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/1979/04/16/n1/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/1976/12/09/n1/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/1879/06/18/n1/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/1808/11/17/n1/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2016/07/23/n8/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/1991/08/10/n3/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a689/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/1998/08/03/n10/jo" />
+    <jolux:cites rdf:resource="http://data.legilux.public.lu/eli/reg_ue/2016/679/jo" />
+    <jolux:dateDocument rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-01</jolux:dateDocument>
+    <jolux:dateEntryInForce rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-20</jolux:dateEntryInForce>
+    <jolux:isPartOf rdf:resource="http://data.legilux.public.lu/eli/etat/leg/memorial/2018/a686" />
+    <jolux:responsibilityOf rdf:resource="http://data.legilux.public.lu/resource/authority/legal-institution/MC" />
+    <jolux:subjectLevel1 rdf:resource="http://data.legilux.public.lu/resource/authority/legal-subject/2004" />
+    <jolux:subjectLevel1 rdf:resource="http://data.legilux.public.lu/resource/authority/legal-subject/733" />
+    <jolux:subjectLevel2 rdf:resource="http://data.legilux.public.lu/resource/authority/legal-subject/1544" />
+    <jolux:subjectLevel2 rdf:resource="http://data.legilux.public.lu/resource/authority/legal-subject/602" />
+    <jolux:subjectLevel2 rdf:resource="http://data.legilux.public.lu/resource/authority/legal-subject/98" />
+    <jolux:subjectLevel2 rdf:resource="http://data.legilux.public.lu/resource/authority/legal-subject/3092" />
+    <jolux:subjectLevel2 rdf:resource="http://data.legilux.public.lu/resource/authority/legal-subject/5" />
+    <jolux:inForceStatus rdf:resource="http://data.legilux.public.lu/resource/authority/application-status/in-force" />
+    <jolux:modifies rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2006/07/31/n2/jo" />
+    <jolux:modifies rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2015/03/25/n3/jo" />
+    <jolux:repeals rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2002/08/02/n2/jo" />
+    <jolux:draft rdf:resource="http://data.legilux.public.lu/eli/etat/proj/pl/20170198" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr">
+    <rdf:type rdf:resource="http://data.legilux.public.lu/resource/ontology/jolux#Expression" />
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity" />
+    <jolux:isEmbodiedBy rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr/pdfa" />
+    <jolux:isEmbodiedBy rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr/xml" />
+    <jolux:isEmbodiedBy rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr/html" />
+    <jolux:isEmbodiedBy rdf:resource="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr/docx" />
+    <jolux:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loi du 1er août 2018 portant organisation de la Commission nationale pour la protection des données et mise en oeuvre du règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l&#39;égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE (règlement général sur la protection des données), portant modification du Code du travail et de la loi modifiée du 25 mars 2015 fixant le régime des traitements et les conditions et modalités d&#39;avancement des fonctionnaires de l&#39;État.</jolux:title>
+    <jolux:language rdf:resource="http://publications.europa.eu/resource/authority/language/FRA" />
+    <jolux:titleShort rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loi du 1er août 2018 portant organisation de la Commission nationale pour la protection des données et du régime général sur la protection des données.</jolux:titleShort>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr/html">
+    <rdf:type rdf:resource="http://data.legilux.public.lu/resource/ontology/jolux#Manifestation" />
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity" />
+    <jolux:isExemplifiedBy rdf:resource="http://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/08/01/a686/jo/fr/html/eli-etat-leg-loi-2018-08-01-a686-jo-fr-html.html" />
+    <jolux:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML" />
+    <jolux:rightsHolder rdf:resource="http://data.legilux.public.lu/resource/authority/legal-institution/ME" />
+    <jolux:userFormat rdf:resource="http://data.legilux.public.lu/resource/authority/user-format/html" />
+    <jolux:license rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+    <jolux:publishedIn rdf:resource="http://data.legilux.public.lu/eli/etat/leg/memorial/2018/a686/fr/pdfa" />
+    <jolux:publisher rdf:resource="http://data.legilux.public.lu/resource/authority/legal-institution/ME" />
+    <jolux:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copyright : Ministère d’État du Grand-Duché de Luxembourg – Service central de législation</jolux:rights>
+    <jolux:previousIsExemplifiedBy rdf:resource="http://data.legilux.public.lu/file/eli-etat-leg-loi-2018-08-01-a686-jo-fr-html.html" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr/pdfa">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity" />
+    <rdf:type rdf:resource="http://data.legilux.public.lu/resource/ontology/jolux#Manifestation" />
+    <jolux:isExemplifiedBy rdf:resource="http://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/08/01/a686/jo/fr/pdfa/eli-etat-leg-loi-2018-08-01-a686-jo-fr-pdfa.pdf" />
+    <jolux:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF" />
+    <jolux:legalValue rdf:resource="http://data.legilux.public.lu/resource/authority/statut-version/definitif" />
+    <jolux:rightsHolder rdf:resource="http://data.legilux.public.lu/resource/authority/legal-institution/ME" />
+    <jolux:userFormat rdf:resource="http://data.legilux.public.lu/resource/authority/user-format/pdfa" />
+    <jolux:license rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+    <jolux:publishedIn rdf:resource="http://data.legilux.public.lu/eli/etat/leg/memorial/2018/a686/fr/pdfa" />
+    <jolux:publisher rdf:resource="http://data.legilux.public.lu/resource/authority/legal-institution/ME" />
+    <jolux:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copyright : Ministère d’État du Grand-Duché de Luxembourg – Service central de législation</jolux:rights>
+    <jolux:previousIsExemplifiedBy rdf:resource="http://data.legilux.public.lu/file/eli-etat-leg-loi-2018-08-01-a686-jo-fr-pdf.pdf" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr/xml">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity" />
+    <rdf:type rdf:resource="http://data.legilux.public.lu/resource/ontology/jolux#Manifestation" />
+    <jolux:isExemplifiedBy rdf:resource="http://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/08/01/a686/jo/fr/xml/eli-etat-leg-loi-2018-08-01-a686-jo-fr-xml.xml" />
+    <jolux:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML" />
+    <jolux:rightsHolder rdf:resource="http://data.legilux.public.lu/resource/authority/legal-institution/ME" />
+    <jolux:userFormat rdf:resource="http://data.legilux.public.lu/resource/authority/user-format/xml-akomantoso" />
+    <jolux:license rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+    <jolux:publishedIn rdf:resource="http://data.legilux.public.lu/eli/etat/leg/memorial/2018/a686/fr/pdfa" />
+    <jolux:publisher rdf:resource="http://data.legilux.public.lu/resource/authority/legal-institution/ME" />
+    <jolux:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copyright : Ministère d’État du Grand-Duché de Luxembourg – Service central de législation</jolux:rights>
+    <jolux:previousIsExemplifiedBy rdf:resource="http://data.legilux.public.lu/file/eli-etat-leg-loi-2018-08-01-a686-jo-fr-xml.xml" />
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,4 @@
+{
+  "_comment": "Test fixtures hold public Legilux ids/dates whose digits can trip the PL-aware checksum heuristics. Allow the fixtures dir. pubgate:allow",
+  "allow_paths": ["tests/fixtures/"]
+}

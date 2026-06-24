@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:scl="http://www.scl.lu"><act contains="originalVersion" name="" scl:page-proof="many"><meta><identification source="#somebody">
+			<FRBRWork>
+			     <FRBRthis value="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo"/>
+			     <FRBRuri value=""/>
+			     <FRBRdate date="2018-08-01" name="document"/>
+			     <FRBRauthor as="#author" href="http://data.legilux.public.lu/resource/authority/legal-institution/MC"/>
+			     <FRBRcountry value="http://publications.europa.eu/resource/authority/country/LUX"/>
+			</FRBRWork>
+			<FRBRExpression>
+			     <FRBRthis value="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr"/>
+			     <FRBRuri value=""/>
+			     <FRBRdate date="2018-08-01" name="document"/>
+			     <FRBRauthor as="#author" href=""/>
+			     <FRBRlanguage language="http://publications.europa.eu/resource/authority/language/FRA"/>
+			</FRBRExpression>
+			<FRBRManifestation>
+			     <FRBRthis value="http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr/xml"/>
+			     <FRBRuri value=""/>
+			     <FRBRdate date="2018-08-01" name="document"/>
+			     <FRBRauthor as="#author" href=""/>
+			</FRBRManifestation>
+			<scl:JOLUXWork>
+				<scl:JOLUXComplexWork>
+					<scl:jolux scl:name="uriThis">http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686</scl:jolux>
+				</scl:JOLUXComplexWork>
+				<scl:JOLUXLegalResource>
+					<scl:jolux scl:name="uriThis">http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo</scl:jolux>
+					<scl:jolux scl:name="publicationDate">2018-08-16</scl:jolux>
+					<scl:jolux scl:name="typeDocument">http://data.legilux.public.lu/resource/authority/resource-type/LOI</scl:jolux>
+					<scl:jolux scl:name="dateDocument">2018-08-01</scl:jolux>
+					
+					
+					<scl:jolux scl:name="isMemberOf">http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686</scl:jolux>
+					<scl:jolux scl:name="responsibilityOf">http://data.legilux.public.lu/resource/authority/legal-institution/MC</scl:jolux><scl:jolux scl:name="subjectLevel1">http://data.legilux.public.lu/resource/authority/legal-subject/733</scl:jolux><scl:jolux scl:name="subjectLevel1">http://data.legilux.public.lu/resource/authority/legal-subject/2004</scl:jolux><scl:jolux scl:name="subjectLevel2">http://data.legilux.public.lu/resource/authority/legal-subject/98</scl:jolux><scl:jolux scl:name="subjectLevel2">http://data.legilux.public.lu/resource/authority/legal-subject/602</scl:jolux><scl:jolux scl:name="subjectLevel2">http://data.legilux.public.lu/resource/authority/legal-subject/3092</scl:jolux><scl:jolux scl:name="subjectLevel2">http://data.legilux.public.lu/resource/authority/legal-subject/5</scl:jolux><scl:jolux scl:name="subjectLevel2">http://data.legilux.public.lu/resource/authority/legal-subject/1544</scl:jolux><scl:jolux scl:name="modifies">http://data.legilux.public.lu/eli/etat/leg/loi/2006/07/31/n2/jo</scl:jolux><scl:jolux scl:name="modifies">http://data.legilux.public.lu/eli/etat/leg/loi/2015/03/25/n3/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/dir_ue/1995/46/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/etat/leg/loi/1808/11/17/n1/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/etat/leg/loi/1879/06/18/n1/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/etat/leg/loi/1976/12/09/n1/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/etat/leg/loi/1979/04/16/n1/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/etat/leg/loi/1991/08/10/n3/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/etat/leg/loi/1998/08/03/n10/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/etat/leg/loi/2015/03/25/n5/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/etat/leg/loi/2016/07/23/n8/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a689/jo</scl:jolux><scl:jolux scl:name="cites">http://data.legilux.public.lu/eli/reg_ue/2016/679/jo</scl:jolux><scl:jolux scl:name="repeals">http://data.legilux.public.lu/eli/etat/leg/loi/2002/08/02/n2/jo</scl:jolux><scl:jolux scl:name="draft">http://data.legilux.public.lu/eli/etat/proj/pl/20170198</scl:jolux><scl:jolux scl:name="dateApplicability">2018-08-20</scl:jolux><scl:jolux scl:name="dateEntryInForce">2018-08-20</scl:jolux><scl:jolux scl:name="isPartOf">http://data.legilux.public.lu/eli/etat/leg/memorial/2018/a686</scl:jolux>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<scl:rdf scl:name="type">http://data.legilux.public.lu/resource/ontology/jolux#BaseAct</scl:rdf>
+					<scl:rdf scl:name="type">http://data.legilux.public.lu/resource/ontology/jolux#Act</scl:rdf>
+					<scl:rdf scl:name="type">http://data.legilux.public.lu/resource/ontology/jolux#Work</scl:rdf>
+					<scl:rdf scl:name="type">http://data.legilux.public.lu/resource/ontology/jolux#LegalResource</scl:rdf>
+					<scl:rdf scl:name="type">http://data.legilux.public.lu/resource/ontology/jolux#NationalLegalResource</scl:rdf>
+				</scl:JOLUXLegalResource>
+			</scl:JOLUXWork>
+			<scl:JOLUXExpression>
+				<scl:jolux scl:name="uriThis">http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo/fr</scl:jolux>
+				<scl:jolux scl:name="realizes">http://data.legilux.public.lu/eli/etat/leg/loi/2018/08/01/a686/jo</scl:jolux>
+				<scl:jolux scl:name="language">http://publications.europa.eu/resource/authority/language/FRA</scl:jolux>
+				<scl:jolux scl:lg="fra" scl:name="title">Loi du 1er aoÃ»t 2018 portant organisation de la Commission nationale pour la protection des donnÃ©es et mise en oeuvre du rÃ¨glement (UE) 2016/679 du Parlement europÃ©en et du Conseil du 27 avril 2016 relatif Ã  

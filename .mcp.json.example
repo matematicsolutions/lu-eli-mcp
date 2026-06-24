@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "lu-eli-mcp": {
+      "command": "lu-eli-mcp",
+      "env": {
+        "LU_ELI_BASE_URL": "https://data.legilux.public.lu",
+        "LU_ELI_CACHE_DIR": "~/.matematic/cache/lu-eli",
+        "LU_ELI_AUDIT_DIR": "~/.matematic/audit"
+      }
+    }
+  }
+}
