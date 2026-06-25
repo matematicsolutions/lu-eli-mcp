@@ -2,6 +2,23 @@
 
 <!-- mcp-name: io.github.matematicsolutions/lu-eli-mcp -->
 
+
+## Instalacja (jedna komenda)
+
+Opublikowany na PyPI + MCP Registry (`io.github.matematicsolutions/lu-eli-mcp`). Uruchomienie bez klonowania:
+
+```bash
+uvx lu-eli-mcp
+```
+
+Konfiguracja klienta MCP (stdio):
+
+```json
+{ "mcpServers": { "lu-eli-mcp": { "command": "uvx", "args": ["lu-eli-mcp"] } } }
+```
+
+(Budowanie ze źródeł — niżej.)
+
 An MCP server for **Luxembourg legislation** via [Legilux](https://legilux.public.lu) open data
 (`data.legilux.public.lu`). It fetches act metadata and full Akoma Ntoso text with verifiable
 citations. Part of the **eu-legal-mcp** line of national legal connectors by
