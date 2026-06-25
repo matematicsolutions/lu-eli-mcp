@@ -1,5 +1,7 @@
 # lu-eli-mcp
 
+<!-- mcp-name: io.github.matematicsolutions/lu-eli-mcp -->
+
 An MCP server for **Luxembourg legislation** via [Legilux](https://legilux.public.lu) open data
 (`data.legilux.public.lu`). It fetches act metadata and full Akoma Ntoso text with verifiable
 citations. Part of the **eu-legal-mcp** line of national legal connectors by
