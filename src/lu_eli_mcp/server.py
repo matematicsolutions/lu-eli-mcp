@@ -22,6 +22,7 @@ from mcp.types import ToolAnnotations
 from . import citations
 from .audit import AuditLogger, hash_input, timer
 from .citations import normalize_eli, parse_act
+from . import runtime
 from .client import DEFAULT_BASE_URL, LegiluxClient
 from .models import Act, LawText
 
@@ -79,7 +80,7 @@ mcp: FastMCP = FastMCP(name="lu-eli-mcp", instructions=INSTRUCTIONS)
 
 
 def _base_url() -> str:
-    return os.environ.get("LU_ELI_BASE_URL", DEFAULT_BASE_URL).rstrip("/")
+    return os.environ.get("LU_ELI_BASE_URL", runtime.base_url("eli", DEFAULT_BASE_URL)).rstrip("/")
 
 
 def _audit() -> AuditLogger:
