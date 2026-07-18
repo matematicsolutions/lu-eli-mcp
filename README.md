@@ -17,6 +17,25 @@ Konfiguracja klienta MCP (stdio):
 { "mcpServers": { "lu-eli-mcp": { "command": "uvx", "args": ["lu-eli-mcp"] } } }
 ```
 
+### Windows 11 ze Smart App Control
+
+Smart App Control blokuje niepodpisane pliki wykonywalne, a `uvx.exe`, `pip.exe`
+i generowany przy instalacji `lu-eli-mcp.exe` podpisane nie sa. `python.exe`
+z python.org jest podpisany przez Python Software Foundation, wiec uruchomienie
+przez modul omija blokade:
+
+```bash
+python -m pip install lu-eli-mcp
+python -m lu_eli_mcp
+```
+
+```json
+{ "mcpServers": { "lu-eli-mcp": { "command": "python", "args": ["-m", "lu_eli_mcp"] } } }
+```
+
+Nie wylaczaj Smart App Control, zeby to obejsc - wylaczenia nie da sie cofnac
+bez ponownej instalacji systemu.
+
 (Budowanie ze źródeł — niżej.)
 
 An MCP server for **Luxembourg legislation** via [Legilux](https://legilux.public.lu) open data
