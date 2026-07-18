@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "lu-eli-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server for Luxembourg legislation via Legilux (data.legilux.public.lu) — ELI-native jolux RDF metadata and Akoma Ntoso full text with verifiable citations."
 readme = "README.md"
 license = { text = "Apache-2.0" }
