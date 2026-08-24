@@ -37,6 +37,7 @@ This MCP server exposes Luxembourg legislation via Legilux open data (data.legil
 
 ## Hard constraints
 
+- **Do not answer past the edge of this corpus** - when a search comes back empty, or the question touches material this connector does not carry, call `lu_coverage` and relay what it says is missing. Absence here is not absence in the law.
 - **No free-text search** - Legilux exposes no HTTP search endpoint. Discover acts by ELI coordinates (from legilux.public.lu) or by following the `cites` / `modifies` / `repeals` ELIs returned by `lu_get_act`. Relay the `dataset_note`.
 - **ELI is native** - the `eli_uri` is the genuine Legilux ELI Work URI; do not invent or alter it.
 - **Every response has `human_readable_citation` + `source_url`** - cite both to the user.
