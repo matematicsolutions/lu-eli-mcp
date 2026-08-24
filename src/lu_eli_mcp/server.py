@@ -25,6 +25,7 @@ from .citations import normalize_eli, parse_act
 from . import runtime
 from .client import DEFAULT_BASE_URL, LegiluxClient
 from .models import Act, LawText
+from .coverage import Coverage, build_coverage
 
 INSTRUCTIONS = """\
 This MCP server exposes Luxembourg legislation via Legilux open data (data.legilux.public.lu). Legilux is genuinely ELI-native: every act is addressed by its ELI and described as jolux RDF over a FRBR model, with full text as Akoma Ntoso XML. Every response carries the citation contract: a native `eli_uri`, a `human_readable_citation` (Luxembourg convention) and a `source_url`.
@@ -146,6 +147,20 @@ async def lu_get_act(eli: str) -> Act:
 
 # ---------------------------------------------------------------------------
 # lu_get_text
+@mcp.tool(annotations=READ_ONLY)
+async def lu_coverage() -> Coverage:
+    """Declare what this connector covers, how it is sourced, and what it does NOT cover.
+
+    Call this before telling a user that the law "does not contain" something, and whenever
+    a search comes back empty: the absence may be a gap in this connector rather than in the
+    law. Every gap carries a fallback saying where to look instead.
+
+    Returns:
+        ``Coverage`` with families, an as-of note, and a non-empty list of known gaps.
+    """
+    return build_coverage()
+
+
 # ---------------------------------------------------------------------------
 
 

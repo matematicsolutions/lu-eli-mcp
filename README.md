@@ -59,6 +59,7 @@ response carries a native `eli_uri`, a `human_readable_citation` and a resolvabl
 | --- | --- |
 | `lu_get_act(eli)` | Metadata for an act by its ELI (full URI or bare `eli/...` path). Returns the native `eli_uri`, title, dates, in-force status, available languages / manifestations, and the act's `cites` / `modifies` / `repeals` links. |
 | `lu_get_text(eli, language, file_format)` | Verbatim text in one `language` (default `fr`) and `file_format` (default `xml`, Akoma Ntoso). |
+| `lu_coverage()` | Declare what this connector covers, when each family was captured, and - explicitly - what it does NOT cover. Every gap carries a fallback. |
 
 There is **no free-text search**: Legilux exposes no HTTP search endpoint. Discover acts by ELI
 coordinates (from legilux.public.lu) or by following the `cites` / `modifies` / `repeals` ELIs that
